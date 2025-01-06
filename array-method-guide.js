@@ -9,3 +9,11 @@ function camelize(str) {
     return camelizedString;
 }
 
+function filterRange(arr, a, b){
+    
+    // keep items which are higher or equal to a and lower or equal to b
+    let filteredArray = arr.filter(item => (item >= a ) && (item <= b))
+
+    return filteredArray
+
+}
